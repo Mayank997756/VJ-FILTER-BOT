@@ -121,9 +121,9 @@ else:
     ON_HEROKU = False
 HAS_SSL=bool(getenv('HAS_SSL',False))
 if HAS_SSL:
-    URL = "https://demobotlprj.onrender.com/".format(FQDN)
+    URL = "https://new-bot-vyob.onrender.com/".format(FQDN)
 else:
-    URL = "https://demobotlprj.onrender.com/".format(FQDN)
+    URL = "https://new-bot-vyob.onrender.com/".format(FQDN)
 
 
 
