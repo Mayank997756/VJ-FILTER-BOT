@@ -20,7 +20,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '27495451'))
 API_HASH = environ.get('API_HASH', '778fdfe2aae56a38907c0cb683708fc5')
-BOT_TOKEN = environ.get('BOT_TOKEN', "6899089264:AAEkxXDkb8fB3aiPDqOsQFGL0PbH1f0I1co")
+BOT_TOKEN = environ.get('BOT_TOKEN', "6365222536:AAEwYCK2jNZsAUmb6IoMR0ZDgxx-YYP04j8")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 1800))
@@ -66,7 +66,7 @@ CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/vj_bots')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/How_To_Open_Linkl')
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 MSG_ALRT = environ.get('MSG_ALRT', 'Hello My Dear Friends ❤️')
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002115135967'))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001950409226'))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'vj_bot_disscussion')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "True")), True)
